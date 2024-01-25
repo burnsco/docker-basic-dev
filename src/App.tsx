@@ -19,6 +19,7 @@ function App() {
       <h1>🐻 Hello 🐻
 
       </h1>
+      <h3>🎃 GoodBye🎃 </h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count} dfd

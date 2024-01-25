@@ -8,4 +8,5 @@ RUN npm run build
 
 # Serve the built node app
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/dist /usr/share/nginx/html
